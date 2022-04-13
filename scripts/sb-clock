@@ -1,0 +1,4 @@
+#!/bin/bash
+
+clock=$(date "+%b %d (%a) $icon%I:%M%P")
+echo "[ $clock ]"

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+vol=$(pulsemixer --get-volume | awk '{print $1}')
+echo "[  $vol% ]"
