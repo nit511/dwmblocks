@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ram=$(free -mh --si | awk  {'print $3'} | head -n 2 | tail -1)
+
+echo "[  $ram ]"
